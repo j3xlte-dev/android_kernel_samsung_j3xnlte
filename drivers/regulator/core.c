@@ -4037,6 +4037,3 @@ unlock:
  * not all module driver enable regulator before use at now,
  * and system regulators is not fixed, so always_on property is difficult to be set.
  */
-#if !defined(CONFIG_ARCH_SC)
-//late_initcall(regulator_init_complete);
-#endif
